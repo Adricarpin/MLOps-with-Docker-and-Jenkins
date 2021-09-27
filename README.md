@@ -14,7 +14,7 @@
 - [Running commands inside the container](#running-commands-inside-the-container)
 - [The testing step](#the-testing-step)
 - [What is the point of using Docker?](#what-is-the-point-of-using-docker)
-- [Automating a ML pipeline with Jenkins.](#automating-a-ml-pipeline-with-jenkins)
+- [Automating a ML pipeline with Jenkins](#automating-a-ml-pipeline-with-jenkins)
 - [References](#references)
 
 
@@ -205,7 +205,7 @@ First, having your Machine Learning models in a Docker container is really usefu
 So, without any further ado, let's get straight to the point.
 
 
-# Automating a ML pipeline with Jenkins.
+# Automating a ML pipeline with Jenkins
 
 For this step we will use Jenkins, a widely used open source automation server that provides an endless list of plugins to support building, deploying and automating any project. For this time, we will build the steps of the pipeline using a tool called jobs.
 
