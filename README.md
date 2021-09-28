@@ -1,4 +1,4 @@
-# MLOps with Docker and Jenkins: Automating Pipelines for Machine Learning
+# MLOps with Docker and Jenkins: Automating Machine Learning Pipelines
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/86348959/134908631-2f6c75a5-eef8-45b6-ad2d-2f94cac7a83a.png" />
@@ -30,7 +30,7 @@ At the end of this post, you will know how to create a pipeline that automatical
 
 For this task we will use the [Adult census income Dataset](https://www.kaggle.com/uciml/adult-census-income). Target variable is income: a binary variable that indicates if an individual earns more than 50k a year or not.
 
-:ledger: NOTE: As the purpose to this article is to automate a Machine Learning Pipeline, we won't dive into EDA as is out of the scope. If you are curious about that you can check this [Kaggle notebook](https://www.kaggle.com/adro99/from-na-ve-to-xgboost-and-ann-adult-census-income), but is not mandatory to understand what is done here.
+:ledger: NOTE: As the purpose to this article is to automate a Machine Learning Pipeline, we won't dive into EDA as is out of the scope. If you are curious about that you can check this [Kaggle notebook](https://www.kaggle.com/adro99/from-na-ve-to-xgboost-and-ann-adult-census-income), but is not mandatory in order to understand what is done here.
 
 Ok, so let's start!
 
@@ -213,8 +213,8 @@ For this step we will use Jenkins, a widely famous open source automation server
 For this time, we will build the steps of the pipeline using a tool called jobs. Each job will be a step in our pipeline.
 
 :ledger: NOTE: To keep things running smoothly, you will probably need to configure a few things:
-1. It is probable that you will experience some problems trying to connect Jenkins with Github if you use Jenkins in your localhost. If that is your case, consider creating a secure URL to your localhost. Best tool I have found to do so is [ngrok](https://ngrok.com/).
-2. As Jenkins uses it's own user (called jenkins), you may need to give it permissions to execute commands without password. You can do this by opening sudores file with ```sudo visudo /etc/sudoers``` and pasting ```jenkins ALL=(ALL) NOPASSWD: ALL```. 
+- It is probable that you will experience some problems trying to connect Jenkins with Github if you use Jenkins in your localhost. If that is your case, consider creating a secure URL to your localhost. Best tool I have found to do so is [ngrok](https://ngrok.com/).
+- As Jenkins uses it's own user (called jenkins), you may need to give it permissions to execute commands without password. You can do this by opening sudores file with ```sudo visudo /etc/sudoers``` and pasting ```jenkins ALL=(ALL) NOPASSWD: ALL```. 
 
 
 That being said, let's see what is the plan. We will create 4 jobs:
