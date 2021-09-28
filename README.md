@@ -36,7 +36,7 @@ Ok, so let's start!
 
 
 # Setting the strategy
-Before starting to code, I think is important to understand what is the plan. If you look at the repository you can see three python scripts: is easy to figure out what they do by looking at their names :) . We also have the raw dataset: adult.csv, and a Dockerfile (we will talk about it later). But now I want you to  understand the workflow of this project, and for that the first thing we need to do is to understand what are the inputs and outputs of our python scripts:
+Before starting to code, I think is important to understand what is the plan. If you look at the repository you can see three python scripts: is easy to figure out what they do by looking at their names :) . We also have the raw dataset: adult.csv, and a Dockerfile (we will talk about it later). But now I want you to  understand the workflow of this project, and for that the first thing we need to do is to understand what are the inputs and outputs of our Python scripts:
 
 
 <p align="center">
