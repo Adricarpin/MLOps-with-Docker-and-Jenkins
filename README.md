@@ -5,6 +5,7 @@
 </p>
 
 
+
 # Table of Contents
 - [Introduction](#introduction)
 - [Setting the strategy](#setting-the-strategy)
